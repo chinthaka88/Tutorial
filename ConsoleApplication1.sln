@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1-ADO", "ClassL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO1", "ADO1\ADO1.csproj", "{061392FC-06F1-4DF3-B69C-06183A02D21F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestBankAccount", "UnitTestBankAccount\UnitTestBankAccount.csproj", "{DDC93D2A-B375-446B-84A4-43A2EA4C1317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{C4DF42CA-6FC4-4720-B720-EE8AD5734CB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{061392FC-06F1-4DF3-B69C-06183A02D21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061392FC-06F1-4DF3-B69C-06183A02D21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061392FC-06F1-4DF3-B69C-06183A02D21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC93D2A-B375-446B-84A4-43A2EA4C1317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC93D2A-B375-446B-84A4-43A2EA4C1317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC93D2A-B375-446B-84A4-43A2EA4C1317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC93D2A-B375-446B-84A4-43A2EA4C1317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4DF42CA-6FC4-4720-B720-EE8AD5734CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4DF42CA-6FC4-4720-B720-EE8AD5734CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4DF42CA-6FC4-4720-B720-EE8AD5734CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4DF42CA-6FC4-4720-B720-EE8AD5734CB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
