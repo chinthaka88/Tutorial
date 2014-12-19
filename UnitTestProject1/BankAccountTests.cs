@@ -41,21 +41,19 @@ namespace UnitTestProject1
 
             // assert is handled by ExpectedException
         }
-        //////ME
-        [TestMethod]
-        //[ExpectedException(typeof(AmountIsGraterThanException))]
-        public void Debit_AmountIsGraterThanException_ShouldThrowArgumentOutOfRange()
+        //////ME      
+    [TestMethod]
+        public void Debit_WhenBalanceIsLessThanAmount()
         {
             // arrange
-            double beginningBalance = 11.99;
-            double debitAmount = -100.00;
+            double beginningBalance = 500;
+            double debitAmount = 100;
             BankAccount account = new BankAccount("Mr. Bryan Walton", beginningBalance);
 
             // act
             account.Debit(debitAmount);
-
-            // assert is handled by ExpectedException
         }
+
         /////
     }
 }
